@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding:0;
+    margin: 0;
+}
+.logo {
+    width: 100px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.col-sm, .magnus{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.col-sm:hover{ 
+    opacity: 0.8;
+}
+.col-sm:hover>h3 {
+    opacity: 0.8;
+}
+.col-sm-7:hover{
+    opacity: 0.8;
+}
+.col-sm-7:hover>h3 {
+    opacity: 0.8;
+}
+.fabiano {
+    background-image: url("../assets/fabiano2.jpg");
+}
+.ding {
+    background-image: url("../assets/ding3.jpg");
+}
+.ian {
+    background-image: url("../assets/ian4.jpg");
+}
+.maxime {
+    background-image: url("../assets/maxime5.jpg");
+}
+.alexander {
+    background-image: url("../assets/alexander6.jpg");
+}
+.levon {
+    background-image: url("../assets/levon7.jpg");
+}
+.wesley {
+    background-image: url("../assets/wesley8.jpg");
+}
+.teimour {
+    background-image: url("../assets/teimour9.jpg");
+}
+.giri {
+    background-image: url("../assets/giri10.jpg");
+}
+.magnus {
+    background-image: url("../assets/magnus1.png");
+}
+p {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+.col-sm h3, .col-sm-7 h3 {
+    color: white;
+    font-size: 50px;
+    font-family: "Pathway Gothic One";
+    opacity: 0;
+    transition: 0.5s;
+}
+.magnus {
+    background-size: cover;
+    padding: 210px 350px;
+}
+.row1 {
+    padding: 20px;
+}

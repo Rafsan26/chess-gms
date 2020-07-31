@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(230, 230, 230);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Raleway', Arial, Helvetica;
+}
+h1 {
+    color: black;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 110px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    background-color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem rgb(194, 194, 194));
+    border-left: 6px solid #007BFF;
+}
+.kutta{
+    border-radius: 15px;
+    width: 320px;
+
+}
+.info{
+    display: block;
+    margin-top: 4px;
+    font-size: 21px;
+    text-align: left;  
+}
+td{
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+li{
+    margin-top: 4px;
+}
+.biography {
+    text-align: center;
+}
+span{
+    display: block;
+}
+.logo {
+    width: 100px;
+}
+
+
+    
